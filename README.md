@@ -24,15 +24,15 @@ npm install
 
 ## Scripts
 
-| Comando             | Descrição                                                    |
-| ------------------- | ------------------------------------------------------------ |
-| `npm run dev`       | Executa o servidor em desenvolvimento.                       |
-| `npm run dev:watch` | Executa o servidor em desenvolvimento observando alterações. |
-| `npm run build`     | Compila o código de `src` para distribuição.                 |
-| `npm start`         | Executa o arquivo compilado `dist/src/server.js`.            |
-| `npm run typecheck` | Verifica os tipos sem emitir arquivos.                       |
-| `npm run lint`      | Executa as verificações do Biome.                            |
-| `npm run format`    | Formata os arquivos com o Biome.                             |
+| Comando               | Descrição                                                                  |
+| --------------------- | -------------------------------------------------------------------------- |
+| `npm run start:dev`   | Executa o servidor em desenvolvimento e carrega as variáveis de `.env`.    |
+| `npm run start:watch` | Executa o servidor observando alterações e carrega as variáveis de `.env`. |
+| `npm run dist`        | Compila o código de `src` para distribuição.                               |
+| `npm run start:dist`  | Compila o projeto e executa `dist/src/server.js`.                          |
+| `npm run typecheck`   | Verifica os tipos sem emitir arquivos.                                     |
+| `npm run lint`        | Executa as verificações do Biome.                                          |
+| `npm run format`      | Formata os arquivos com o Biome.                                           |
 
 ## Estrutura
 
